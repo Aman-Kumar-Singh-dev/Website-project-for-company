@@ -1,0 +1,131 @@
+.main {
+  width: 100%;
+  padding-top: 8rem;
+}
+
+.headerSection {
+  padding-bottom: 4rem;
+}
+
+.teamSection {
+  padding-top: 0;
+}
+
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3rem;
+}
+
+.teamCard {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.4s var(--apple-ease);
+}
+
+.teamCard:hover {
+  transform: translateY(-8px);
+}
+.imageContainer {
+  width: 100%;
+  aspect-ratio: 1/1;
+  position: relative;
+  overflow: hidden; 
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.placeholderImage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  font-weight: 800;
+  color: var(--border);
+  background: linear-gradient(135deg, var(--surface-1), var(--surface-2));
+}
+
+.info {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.info h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  color: var(--foreground);
+}
+
+.role {
+  color: var(--primary);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1.5rem;
+}
+
+.bio {
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  flex: 1;
+}
+
+.angle {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--foreground);
+  border-left: 2px solid var(--accent);
+  padding-left: 1rem;
+}
+
+.valuesSection {
+  background: var(--surface-1);
+}
+
+.valuesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.valuesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+@media (max-width: 900px) {
+  .valuesGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.valueBox {
+  padding: 2rem;
+  border-radius: 16px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+}
+
+.valueBox h3 {
+  font-size: 1.25rem;
+  color: var(--foreground);
+  margin-bottom: 1rem;
+}
+
+.valueBox p {
+  color: var(--text-muted);
+  line-height: 1.6;
+}

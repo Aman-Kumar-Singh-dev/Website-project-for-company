@@ -1,0 +1,56 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 99px;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.icon {
+  transition: transform 0.3s var(--apple-ease);
+}
+
+.btn:hover .icon {
+  transform: translateX(4px);
+}
+
+.primary {
+  background: var(--foreground);
+  color: var(--background);
+  box-shadow: 0 4px 14px 0 rgba(255, 255, 255, 0.15);
+}
+
+.primary:hover {
+  background: #eaeaea;
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.23);
+  transform: translateY(-2px);
+}
+
+.secondary {
+  background: var(--surface-2);
+  color: var(--foreground);
+  border: 1px solid var(--border);
+}
+
+.secondary:hover {
+  background: var(--border);
+}
+
+.outline {
+  background: transparent;
+  color: var(--foreground);
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.outline:hover {
+  background: rgba(255,255,255,0.05);
+  border-color: rgba(255,255,255,0.4);
+}
