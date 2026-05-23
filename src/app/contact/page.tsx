@@ -35,7 +35,7 @@ export default function ContactPage() {
            <div className={styles.formContent}>
              <Reveal delay={0.4}>
                <div className={`glass-panel ${styles.formCard}`}>
-                 <form className={styles.form} action="https://formspree.io/f/mkoezgno" method="POST">
+                 <form className={styles.form} action="https://formspree.io/f/mlgvljde" method="POST">
                    <div className={styles.inputGroup}>
                      <label htmlFor="name">Full Name</label>
                      <input type="text" id="name" name="name" required placeholder="Jonny Doe" />
