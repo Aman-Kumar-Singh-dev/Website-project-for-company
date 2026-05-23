@@ -25,8 +25,8 @@ export default function ContactPage() {
              <Reveal delay={0.2}>
                <div className={styles.alternativeContact}>
                  <h3>Direct Contact</h3>
-                 <a href="mailto:unityscale.agency@gmail.com">contact.unityscale@gmail.in</a>
-                 <a href="tel:+918882463451">+91 8882463451</a>
+                 <a href="mailto:contact.unityscale@gmail.com">contact.unityscale@gmail.in</a>
+                 <a href="tel:+91 8882463451">+91 8882463451</a>
                  <span>Greater Noida / Gautam Buddha Nagar</span>
                </div>
              </Reveal>
@@ -35,7 +35,7 @@ export default function ContactPage() {
            <div className={styles.formContent}>
              <Reveal delay={0.4}>
                <div className={`glass-panel ${styles.formCard}`}>
-                 <form className={styles.form} action="#" method="POST">
+                 <form className={styles.form} action="https://formspree.io/f/mkoezgno" method="POST">
                    <div className={styles.inputGroup}>
                      <label htmlFor="name">Full Name</label>
                      <input type="text" id="name" name="name" required placeholder="Jonny Doe" />
