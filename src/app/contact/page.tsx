@@ -25,9 +25,9 @@ export default function ContactPage() {
              <Reveal delay={0.2}>
                <div className={styles.alternativeContact}>
                  <h3>Direct Contact</h3>
-                 <a href="mailto:unityscale.agency@gmail.com">unityscale.agency@gmail.com</a>
+                 <a href="mailto:unityscale.agency@gmail.com">contact.unityscale@gmail.in</a>
                  <a href="tel:+918882463451">+91 8882463451</a>
-                 <span>Surajpur / Gautam Buddha Nagar</span>
+                 <span>Greater Noida / Gautam Buddha Nagar</span>
                </div>
              </Reveal>
            </div>
@@ -38,23 +38,23 @@ export default function ContactPage() {
                  <form className={styles.form} action="#" method="POST">
                    <div className={styles.inputGroup}>
                      <label htmlFor="name">Full Name</label>
-                     <input type="text" id="name" name="name" required placeholder="John Doe" />
+                     <input type="text" id="name" name="name" required placeholder="Jonny Doe" />
                    </div>
                    
                    <div className={styles.inputGroup}>
                      <label htmlFor="email">Work Email</label>
-                     <input type="email" id="email" name="email" required placeholder="john@company.com" />
+                     <input type="email" id="email" name="email" required placeholder="jonny@company.com" />
                    </div>
 
                    <div className={styles.inputGroup}>
                      <label htmlFor="project">Project Details & Goals</label>
-                     <textarea id="project" name="project" rows={5} required placeholder="Tell us about where you are and where you want to be..."></textarea>
+                     <textarea id="project" name="project" rows={5} required placeholder="Tell us about your ideas and where you want to be..."></textarea>
                    </div>
 
                    <Button variant="primary" showArrow className={styles.submitBtn}>
                      Submit Application
                    </Button>
-                   <p className={styles.urgency}>*We only take on 2 new clients per month to ensure quality.</p>
+                   <p className={styles.urgency}>*We only take on few clients per month to ensure quality.</p>
                  </form>
                </div>
              </Reveal>
