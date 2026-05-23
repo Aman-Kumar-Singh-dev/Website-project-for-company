@@ -25,7 +25,7 @@ export default function ContactPage() {
              <Reveal delay={0.2}>
                <div className={styles.alternativeContact}>
                  <h3>Direct Contact</h3>
-                 <a href="mailto:contact.unityscale@gmail.com">contact.unityscale@gmail.in</a>
+                 <a href="mailto:contact.unityscale@gmail.com">contact@unityscale.in</a>
                  <a href="tel:+91 8882463451">+91 8882463451</a>
                  <span>Greater Noida / Gautam Buddha Nagar</span>
                </div>
